@@ -1,0 +1,67 @@
+00:00:00.019454 main     VirtualBox COM Server 7.0.4 r154605 win.amd64 (Nov 16 2022 15:33:13) release log
+00:00:00.019456 main     Log opened 2024-01-15T14:18:27.008809600Z
+00:00:00.019457 main     Build Type: release
+00:00:00.019473 main     OS Product: Windows 10
+00:00:00.019473 main     OS Release: 10.0.19045
+00:00:00.019474 main     OS Service Pack: 
+00:00:00.040332 main     DMI Product Name: OptiPlex 7050
+00:00:00.051723 main     DMI Product Version: 
+00:00:00.051732 main     Firmware type: UEFI
+00:00:00.052119 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.052155 main     Host RAM: 16247MB (15.8GB) total, 10920MB (10.6GB) available
+00:00:00.052160 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.052160 main     Process ID: 9340
+00:00:00.052160 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.224764          VirtualBox: object creation starts
+00:00:00.226600          Home directory: 'C:\Users\jkret\.VirtualBox'
+00:00:00.226707          Installed Drivers:
+00:00:00.252545            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.4.4605)
+00:00:00.257627            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.4.4605)
+00:00:00.335540            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.0.4.4605)
+00:00:00.344016            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.4.4605)
+00:00:00.373809          Loading settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.382804          usbLibGetDevices: Starting USB device enumeration
+00:00:00.397872          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.605707          HostDnsMonitor: initializing
+00:00:00.613311          HostDnsMonitor: updating information
+00:00:00.613366          HostDnsMonitor: old information
+00:00:00.613366            no server entries
+00:00:00.613367            no domain set
+00:00:00.613367            no search string entries
+00:00:00.613367          HostDnsMonitor: new information
+00:00:00.613368            server 1: 10.1.20.200
+00:00:00.613368            server 2: 1.1.1.1
+00:00:00.613369            domain: clouda.wsb-nlu.edu.pl
+00:00:00.613370            search string 1: clouda.wsb-nlu.edu.pl
+00:00:00.613370            search string 2: wsb-nlu.edu.pl
+00:00:00.692828          VD: VDInit finished with VINF_SUCCESS
+00:00:00.702434          Loading settings file "C:\Users\jkret\VirtualBox VMs\Debian-JK\Debian-JK.vbox" with version "1.19-windows"
+00:00:00.704400          VirtualBox: object created
+00:00:00.778663          Saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.785208          Finished saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml"
+00:00:00.785481          Saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.788543          Finished saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml"
+00:00:00.788741          Saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.791699          Finished saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml"
+00:00:03.807663          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:25.030519          Launched VM: 703988976 pid: 3124 (0xc34) frontend: GUI/Qt name: Debian-JK
+00:00:25.046050          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:30.729702          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:31.248293          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:37.334303          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:37.840107          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:37.844504          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:39.238111          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:39.238738          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:39.273934          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:06:56.520556          Saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:06:56.524350          Finished saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml"
+01:06:56.524661          Saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:06:56.527817          Finished saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml"
+01:06:56.528042          Saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:06:56.530977          Finished saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml"
+01:06:57.346113          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:07:03.346116          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:08:35.422314          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:08:53.243673          Saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:08:53.248042          Finished saving settings file "C:\Users\jkret\.VirtualBox\VirtualBox.xml"
